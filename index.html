@@ -166,7 +166,12 @@
       }
 
       document.getElementById("links").innerHTML = document.getElementById("links").innerHTML.concat(
-        '<p><span style="color:red">Special Note</span>: The webpage is currently for experiment and test only. The generated link is possible to change in the future when needed. In the case it changes, any code that uses this link may need to be updated.<p>');
+        '<h6>Special Notice</h6>',
+          '<p>The webpage is currently for experiment and test only.</p>',
+          '<p>The generated link is possible to change in the future when needed. In the case it changes, any code that uses this link may need to be updated.<p>',
+          '<p>The deeplink can successfully open an Office document with your add-in and the end users can use your add-in for below scenarios only.</p>',
+          '<p>&emsp;1. The add-in is public published, so that it can be found from Office AppSource.</p>',
+          '<p>&emsp;2. The Office store is enabled for the end user.</p>');
 
     }
   </script>
